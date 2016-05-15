@@ -5,7 +5,7 @@
     <script>
 
         function changeStatus(orderId, element){
-            $("#change-status").click();
+            $(element).parent().find('button').click();
         }
 
     </script>
